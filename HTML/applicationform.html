@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+</head>
+<body>
+  <form>
+    <h1>APPLICATION FORM</h1>
+    <h3>
+      Thank you for your interest in working with us. Please check below for available job opportunities that meet your criteria and send your application by filling out the job Application Form.
+    </h3>
+
+    <table cellpadding="10"> <!-- adds spacing between cells -->
+      <tr>
+        <td><label for="name">Name:</label></td>
+        <td><input id="name" type="text" placeholder="Enter your name"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input id="email" type="email" placeholder="Enter your email id"></td>
+      </tr>
+      <tr>
+        <td><label for="age">Age:</label></td>
+        <td><input id="age" type="number" placeholder="Enter your age"></td>
+      </tr>
+      <tr>
+        <td><label for="role">Select role:</label></td>
+        <td>
+          <select id="role">
+            <option>Student</option>
+            <option>Teacher</option>
+            <option>Manager</option>
+            <option>Cricketer</option>
+          </select>
+        </td>
+        <tr>
+            <td>
+                Would you like to list refrences
+            </td>
+            <td><input type="radio">Yes</td>
+            <td><input type="radio">No</td>
+           
+        </tr>
+      </tr>
+      <tr>
+        <td>which position you apply for:</td>
+        <td>
+            <select name="" id="">
+                <option value="hr">Hr</option>
+                <option value="">Field manager</option>
+                <option value="">Developer</option>
+                <option value="">general manager</option>
+                >
+            </select>
+        </td>
+        
+
+      </tr>
+      <tr>
+        <td valign="top"><label>Which programming language do you know?</label></td>
+        <td>
+          <input type="checkbox" id="dbms"><label for="dbms"> DBMS</label><br>
+          <input type="checkbox" id="java"><label for="java"> JAVA</label><br>
+          <input type="checkbox" id="python"><label for="python"> PYTHON</label>
+        </td>
+      </tr>
+      
+      <tr>
+            <td>
+                upload resume:
+            </td>
+            <td> <input type="file"></td>
+            
+        </tr>
+        <tr>
+        <td valign="top"><label for="feedback">Feedback:</label></td>
+        <td><textarea id="feedback" name="feedback" placeholder="Feedback"></textarea></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="submit">Submit Application</button></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html
