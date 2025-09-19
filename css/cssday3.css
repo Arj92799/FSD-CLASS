@@ -1,0 +1,41 @@
+
+/* #box{
+    background-color: blue;
+}
+.heading{
+    color: red;
+} */
+/* p{
+    font-size: 40px;
+    color: orange;
+} */
+/* div{
+    text-align: center;
+}
+#deco{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: cursive;
+}   */
+   #one{
+      height: 200px;
+      width: 200px;
+      background-color: rgb(244, 124, 27);
+      margin-bottom: 20px;
+      font-weight: 200;
+   }
+   #two{
+      height: 200px;
+      width: 200px;
+      background-color: rgb(235, 241, 39);
+      margin-bottom: 20px;
+      padding-left: 20px;
+      border: solid;
+   }
+   #three{
+      height: 200px;
+      width: 200px;
+      background-color: rgb(106, 207, 235);
+      margin-bottom: 20px;
+   }

@@ -1,0 +1,21 @@
+*{
+    color: white;
+}
+#navbar{
+    background-color: black;
+    height: 60px;
+}
+button{
+    background-color:orange;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+}
+button{
+    background-color: orange;
+}
+a{
+    margin-right: 150px;
+    text-decoration: none;
+}
