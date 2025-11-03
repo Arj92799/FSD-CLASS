@@ -1,0 +1,40 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-duration: 4s;
+    animation-name: example;
+    position: relative;
+}
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+ /* @keyframes example {
+    0% {background-color: aquamarine;}
+    25%{background-color: green;}
+    50% {background-color: darkorange;}
+    75% {background-color: blue;}
+    100% {background-color: yellow;}
+} */
+  @keyframes example {
+    0% { background-color: aquamarine ;
+        top: 0;
+        left: 0;}
+    25%{background-color: green;
+        top: 0;
+        left: 300px;
+    }
+    50% {background-color: darkorange;
+        top: 300px;
+        left: 300px;
+    }
+    75% {background-color: blue;
+        top: 300px;
+        left: 0;
+    }
+    100% {background-color: yellow;
+     top: 0px;
+    left: 0px;}
+}
+
