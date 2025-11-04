@@ -1,0 +1,28 @@
+/* h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+    color: purple;
+}
+p{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 20px;
+    color: red;
+} */
+p{
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: normal;
+    word-spacing: 10px;
+    text-indent: 20px;
+}
+h1{
+    text-align: right;
+    line-height: 100px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-indent: 50%;
+}
