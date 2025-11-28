@@ -1,0 +1,65 @@
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  margin-top: 40px;
+}
+
+
+.hero {
+  background:gray;
+  color: #fff;
+  padding: 120px 20px;
+}
+.hero span {
+  color: #0d6efd;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* About Section */
+.social a {
+  font-size: 25px;
+  margin-right: 10px;
+  color: red;
+  text-decoration: none;
+}
+.social a:hover {
+  color: #084298;
+}
+
+/* Images Hover Effect */
+img {
+  transition: 0.3s;
+}
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form */
+form {
+  border: 1px solid #ddd;
+}
+form button:hover {
+  background: #0b8f2a !important;
+}
+
+/* Section Titles */
+h2 {
+  font-weight: bold;
+  color:red;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Smooth rounded cards */
+.rounded {
+  border-radius: 10px !important;
+}
